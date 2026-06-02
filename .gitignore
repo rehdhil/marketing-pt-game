@@ -3,3 +3,6 @@ state/
 .env
 *.log
 .DS_Store
+# generated backup deck (12MB, regenerate via scripts/generate-deck.mjs)
+Marketing PT Game - Backup Deck.html
+public/deck-preview.html
