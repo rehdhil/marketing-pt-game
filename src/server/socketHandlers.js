@@ -35,7 +35,10 @@ export function registerHandlers(io, byId, order = []) {
       index: state.currentIndex,
       total: state.order.length,
     };
-    const revealing = state.phase === PHASES.ANSWER_JUDGED;
+    // Reveal the answer to screen/phones only when the question is resolved —
+    // i.e. answered correctly or the host gave up (judged 'none').
+    // On a WRONG judgment the answer stays hidden so the steal still matters.
+    const revealing = state.phase === PHASES.ANSWER_JUDGED && state.q?.judged !== 'wrong';
     if (role === 'host') {
       return {
         ...base,

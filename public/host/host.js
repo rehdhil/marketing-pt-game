@@ -166,8 +166,13 @@ function buildControls(q) {
     );
     if (q.multiAnswer) ctr.append(btn(`✅ +bonus (${q.points + q.bonusPerExtra})`, 'btn good', () => emit('host:markCorrect', { teamId: state.q.winnerTeam, points: q.points + q.bonusPerExtra })));
   } else if (phase === 'ANSWER_JUDGED') {
-    if (state.q && state.q.judged === 'wrong' && state.q.eliminated.length < state.teams.length) {
+    const wrongUnrevealed = state.q && state.q.judged === 'wrong';
+    if (wrongUnrevealed && state.q.eliminated.length < state.teams.length) {
       ctr.append(btn('🔁 Open for STEAL', 'btn', () => emit('host:reopenSteal')));
+    }
+    if (wrongUnrevealed) {
+      // answer is still hidden on the screen — reveal it when steal is done / nobody knows
+      ctr.append(btn('👁 Reveal answer', 'btn secondary', () => emit('host:noAnswer')));
     }
     ctr.append(btn('⏭ Next question', 'btn', () => emit('host:nextQuestion')));
     ctr.append(btn('↺ Replay Q', 'btn secondary', () => emit('host:resetQuestion')));

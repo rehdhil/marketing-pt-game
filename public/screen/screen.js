@@ -41,9 +41,12 @@ function render() {
 
   stage.append(titleBar());
 
-  if (state.phase === 'ANSWER_JUDGED') { renderReveal(); return; }
+  // Only reveal the answer when resolved (correct, or host gave up = 'none').
+  // A WRONG judgment keeps the answer hidden so the steal is still a real contest.
+  const judgedWrong = state.phase === 'ANSWER_JUDGED' && state.q && state.q.judged === 'wrong';
+  if (state.phase === 'ANSWER_JUDGED' && !judgedWrong) { renderReveal(); return; }
 
-  // question + buzz states
+  // question + buzz states (+ wrong-answer steal hold)
   const area = el('div', { class: 'q-area' });
   const q = state.question;
 
@@ -69,6 +72,10 @@ function render() {
       const flash = el('div', { class: 'buzz-flash' }, `${w?.emoji || ''} ${w ? w.name : ''} buzzed first!`);
       flash.style.background = (w?.color || '#444');
       area.append(flash);
+    } else if (judgedWrong) {
+      const allOut = state.q.eliminated.length >= state.teams.length;
+      area.append(el('div', { class: 'q-status' }, allOut ? '❌ Wrong! No teams left — host will reveal.' : '❌ Wrong! Steal is open to the other teams 👀'));
+      area.append(lampsRow());
     } else {
       area.append(el('div', { class: 'q-status' }, 'Read the clues…'));
     }
@@ -95,8 +102,9 @@ function renderReveal() {
   if (judged === 'correct') {
     const who = teamById(state.q.awardedTo);
     wrap.append(el('div', { class: 'verdict correct' }, `✅ ${who ? who.name : ''} +${state.q.awardedPoints} pts`));
-  } else if (judged === 'wrong') {
-    wrap.append(el('div', { class: 'verdict wrong' }, 'The answer was…'));
+  } else {
+    // 'none' — nobody got it / host revealed
+    wrap.append(el('div', { class: 'verdict wrong' }, 'Nobody got it — the answer was…'));
   }
 
   const lw = el('div', { class: 'logo-wrap' });
