@@ -1,0 +1,19 @@
+{
+  "name": "marketing-pt-game",
+  "version": "1.0.0",
+  "description": "Live 'Guess the Member's Business' buzzer quiz for the BNI Infinity Marketing Power Team feature presentation.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "qr": "node scripts/makeQR.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "qrcode": "^1.5.4"
+  }
+}

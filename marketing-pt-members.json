@@ -1,0 +1,168 @@
+{
+  "powerTeam": "Marketing",
+  "chapter": "BNI Infinity",
+  "term": "Apr 2026 – Sep 2026",
+  "memberCount": 10,
+  "members": [
+    {
+      "name": "ARUN JOSE",
+      "category": "Business Financing",
+      "company": "Envision Financial Services",
+      "phone": "+91 9746 012 373",
+      "email": "arunadimaly@gmail.com",
+      "leadershipRoles": ["Vice President"],
+      "inductionDate": "04/12/24",
+      "stats": {
+        "tyfcbValue": 17782230.0,
+        "referralsGiven": 52,
+        "referralsReceived": 65,
+        "oneToOnesCompleted": 14,
+        "attendanceRatePct": 92.3
+      }
+    },
+    {
+      "name": "AJISH JOSEPH",
+      "category": "Printing Services",
+      "company": "Firefly",
+      "phone": "+91 9946 062 222",
+      "email": "ajc@fireflyonline.in",
+      "leadershipRoles": ["Attendance Coordinators"],
+      "inductionDate": "01/11/17",
+      "stats": {
+        "tyfcbValue": 1489823.0,
+        "referralsGiven": 42,
+        "referralsReceived": 109,
+        "oneToOnesCompleted": 2,
+        "attendanceRatePct": 53.8
+      }
+    },
+    {
+      "name": "ANUP JOY",
+      "category": "Event Planner",
+      "company": "Watermark Event Solutions LLP",
+      "phone": "+91 9387 522 002",
+      "email": "aj@watermarkevents.in",
+      "leadershipRoles": ["Business Development Coordinators"],
+      "inductionDate": "25/10/17",
+      "stats": {
+        "tyfcbValue": 3391371.0,
+        "referralsGiven": 32,
+        "referralsReceived": 11,
+        "oneToOnesCompleted": 2,
+        "attendanceRatePct": 73.1
+      }
+    },
+    {
+      "name": "ARJUN K KUMAR",
+      "category": "Digital Marketing",
+      "company": "Mantra IT Solutions",
+      "phone": "+91 6282 113 506",
+      "email": "arjun@mantraitsolutions.in",
+      "leadershipRoles": ["Attendance Coordinators"],
+      "inductionDate": "27/03/24",
+      "stats": {
+        "tyfcbValue": 2464465.0,
+        "referralsGiven": 30,
+        "referralsReceived": 71,
+        "oneToOnesCompleted": 17,
+        "attendanceRatePct": 100.0
+      }
+    },
+    {
+      "name": "GAUTHAM MANOJ",
+      "category": "Branding",
+      "company": "Noun Creatives",
+      "phone": "+91 8089 808 992",
+      "email": "gautham@nouncreatives.com",
+      "leadershipRoles": ["Branding & Designing Coordinator"],
+      "inductionDate": "25/10/17",
+      "stats": {
+        "tyfcbValue": 2034670.0,
+        "referralsGiven": 34,
+        "referralsReceived": 22,
+        "oneToOnesCompleted": 3,
+        "attendanceRatePct": 69.2
+      }
+    },
+    {
+      "name": "SHIMJITH METHATTA",
+      "category": "Computer Accessories",
+      "company": "Netcom Services",
+      "phone": "+91 9744 195 504",
+      "email": "shimjithmethatta@gmail.com",
+      "leadershipRoles": ["Sports Coordinators"],
+      "inductionDate": "25/10/17",
+      "stats": {
+        "tyfcbValue": 1104946.0,
+        "referralsGiven": 25,
+        "referralsReceived": 122,
+        "oneToOnesCompleted": 5,
+        "attendanceRatePct": 73.1
+      }
+    },
+    {
+      "name": "GEORGE SEBASTIAN",
+      "category": "Uniforms",
+      "company": "JB Creations",
+      "phone": "+91 8714 422 664",
+      "email": "jbcreationsekm@gmail.com",
+      "leadershipRoles": ["Business Development Coordinators"],
+      "inductionDate": "21/02/24",
+      "stats": {
+        "tyfcbValue": 2201000.0,
+        "referralsGiven": 42,
+        "referralsReceived": 59,
+        "oneToOnesCompleted": 15,
+        "attendanceRatePct": 100.0
+      }
+    },
+    {
+      "name": "MARIA SHAJI",
+      "category": "Gifts",
+      "company": "Hamperbells",
+      "phone": "+91 9562 442 789",
+      "email": "hamperbells@gmail.com",
+      "leadershipRoles": ["Feature Presentation Coordinator", "Business Impression"],
+      "inductionDate": "29/11/23",
+      "stats": {
+        "tyfcbValue": 666293.0,
+        "referralsGiven": 51,
+        "referralsReceived": 83,
+        "oneToOnesCompleted": 10,
+        "attendanceRatePct": 92.3
+      }
+    },
+    {
+      "name": "REHDHIL SIYAD",
+      "category": "Sales Automation",
+      "company": "Tetherlo",
+      "phone": "+91 9544 559 292",
+      "email": "rehdhil@tetherlo.com",
+      "leadershipRoles": ["Secretary Treasurer"],
+      "inductionDate": "29/11/23",
+      "stats": {
+        "tyfcbValue": 2036700.0,
+        "referralsGiven": 29,
+        "referralsReceived": 27,
+        "oneToOnesCompleted": 8,
+        "attendanceRatePct": 76.9
+      }
+    },
+    {
+      "name": "CHRIZTOPHER ZINE",
+      "category": "Video Production",
+      "company": "Dista Solutions Pvt Ltd",
+      "phone": "+91 9633 491 957",
+      "email": "chriztopherzine@gmail.com",
+      "leadershipRoles": ["1-2-1 Coordinators", "Online Meeting Coordinator"],
+      "inductionDate": "04/12/24",
+      "stats": {
+        "tyfcbValue": 656500.0,
+        "referralsGiven": 31,
+        "referralsReceived": 32,
+        "oneToOnesCompleted": 5,
+        "attendanceRatePct": 50.0
+      }
+    }
+  ]
+}

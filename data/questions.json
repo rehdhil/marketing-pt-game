@@ -1,0 +1,544 @@
+{
+  "title": "Guess the Marketing PT Member's Business",
+  "chapter": "BNI Infinity",
+  "powerTeam": "Marketing",
+  "defaultPoints": 100,
+  "rounds": [
+    {
+      "round": 1,
+      "title": "Round 1 — Who Am I?",
+      "subtitle": "Guess the member's business from the clues. The earlier you buzz, the riskier it is!",
+      "questions": [
+        {
+          "id": "r1-firefly",
+          "round": 1,
+          "type": "whoami",
+          "memberName": "Ajish Joseph",
+          "businessName": "FireFly",
+          "category": "Printing & Signage Solutions",
+          "logo": "firefly.png",
+          "points": 100,
+          "clues": [
+            "When you walk into a new shop, the first thing you notice is often my work.",
+            "I work with colour, print and big, bold designs.",
+            "Shop boards, banners, flex and stickers — indoor and outdoor.",
+            "I make sign boards and printed branding so a business gets noticed. Who am I?"
+          ],
+          "answer": "FireFly (Printing & Signage)",
+          "acceptableAnswers": ["firefly", "firefly prints", "ajish", "ajish joseph", "printing", "signage"]
+        },
+        {
+          "id": "r1-watermark",
+          "round": 1,
+          "type": "whoami",
+          "memberName": "Anup Joy",
+          "businessName": "Watermark Event Solutions",
+          "category": "Event Planning",
+          "logo": "watermark.png",
+          "points": 100,
+          "clues": [
+            "When something big happens, I work behind the scenes so it goes smoothly.",
+            "Think VIPs, media, ministers and hundreds of guests in one place.",
+            "I plan where people sit, how they are welcomed, and how the whole event flows.",
+            "I am an event planner for big company functions and launches. Who am I?"
+          ],
+          "answer": "Watermark Event Solutions",
+          "acceptableAnswers": ["watermark", "watermark event solutions", "anup", "anup joy", "event planner", "events"]
+        },
+        {
+          "id": "r1-dista",
+          "round": 1,
+          "type": "whoami",
+          "memberName": "Chriztopher Zine",
+          "businessName": "Dista Solutions",
+          "category": "Video Production",
+          "logo": "dista.png",
+          "points": 100,
+          "clues": [
+            "I help businesses get noticed — but I never speak. I show.",
+            "I work with a camera, not a pen.",
+            "Ads, brand films, reels, product shoots and event coverage.",
+            "I make videos that help brands sell. Who am I?"
+          ],
+          "answer": "Dista Solutions (Video Production)",
+          "acceptableAnswers": ["dista", "dista solutions", "chriztopher", "chriztopher zine", "video production", "video"]
+        },
+        {
+          "id": "r1-noun",
+          "round": 1,
+          "type": "whoami",
+          "memberName": "Gautham Manoj",
+          "businessName": "Noun Creatives",
+          "category": "Branding & Logo Design",
+          "logo": "noun.png",
+          "points": 100,
+          "clues": [
+            "When you remember a brand the moment you see it, that's because of someone like me.",
+            "I work on how a business looks and feels.",
+            "Logos, brand colours, fonts and a clear brand style.",
+            "I design logos and brand identity. Who am I?"
+          ],
+          "answer": "Noun Creatives (Branding & Logo)",
+          "acceptableAnswers": ["noun", "noun creatives", "gautham", "gautham manoj", "branding", "logo"]
+        },
+        {
+          "id": "r1-netcom",
+          "round": 1,
+          "type": "whoami",
+          "memberName": "Shimjith Methatta",
+          "businessName": "Netcom Services",
+          "category": "IT Hardware & Networking",
+          "logo": "netcom.png",
+          "points": 100,
+          "clues": [
+            "I help companies get the technology they need — without buying it.",
+            "Why spend ₹50 lakhs on machines you need for only 3 months? Rent them from me.",
+            "Laptops, desktops, networking — plus on-site help when systems fail.",
+            "I am an IT hardware and networking company. Who am I?"
+          ],
+          "answer": "Netcom Services (IT Hardware)",
+          "acceptableAnswers": ["netcom", "netcom services", "shimjith", "shimjith methatta", "it hardware", "computer accessories"]
+        },
+        {
+          "id": "r1-mantra",
+          "round": 1,
+          "type": "whoami",
+          "memberName": "Arjun K Kumar",
+          "businessName": "Mantra IT Solutions",
+          "category": "Digital Marketing & SEO",
+          "logo": "mantra.png",
+          "points": 100,
+          "clues": [
+            "Your customers are searching online right now. I make sure they find you, not your competitor.",
+            "I work on Google and social media.",
+            "SEO, ads, social media and getting you more leads.",
+            "I am a digital marketing company. Who am I?"
+          ],
+          "answer": "Mantra IT Solutions (Digital Marketing)",
+          "acceptableAnswers": ["mantra", "mantra it solutions", "arjun", "arjun k kumar", "arjun kumar", "digital marketing", "seo"]
+        },
+        {
+          "id": "r1-envision",
+          "round": 1,
+          "type": "whoami",
+          "memberName": "Arun Jose",
+          "businessName": "Envision Financial Services",
+          "category": "Business Financing",
+          "logo": "envision.png",
+          "points": 100,
+          "clues": [
+            "Most people call me when they are in trouble. Smart people call me when they are growing.",
+            "I don't sell anything — I help you get the money to buy things.",
+            "Business loans, working capital and project finance.",
+            "I arrange funding for businesses. Who am I?"
+          ],
+          "answer": "Envision Financial Services",
+          "acceptableAnswers": ["envision", "envision financial services", "arun", "arun jose", "business financing", "finance", "loan", "loans"]
+        },
+        {
+          "id": "r1-hamperbells",
+          "round": 1,
+          "type": "whoami",
+          "memberName": "Maria Shaji",
+          "businessName": "HamperBells",
+          "category": "Customized Gifting",
+          "logo": "hamperbells.png",
+          "points": 100,
+          "clues": [
+            "I help you say 'thank you' and 'I care' — without using any words.",
+            "People remember what I give long after the day is over.",
+            "I create special, customized gifts and hampers.",
+            "I am a gifting business. Who am I?"
+          ],
+          "answer": "HamperBells (Gifting)",
+          "acceptableAnswers": ["hamperbells", "hamper bells", "maria", "maria shaji", "gifts", "gifting"]
+        },
+        {
+          "id": "r1-tetherlo",
+          "round": 1,
+          "type": "whoami",
+          "memberName": "Rehdhil Siyad",
+          "businessName": "Tetherlo.ai",
+          "category": "AI-Powered CRM & Automation",
+          "logo": "tetherlo.png",
+          "points": 100,
+          "clues": [
+            "I never sleep. Day and night, I am working for your business.",
+            "I reply to your customers on WhatsApp, follow up on leads, and ask for Google reviews — on my own.",
+            "I am software with AI built in, made to capture and convert customers.",
+            "I am an AI-powered CRM. Who am I?"
+          ],
+          "answer": "Tetherlo.ai — an AI-powered CRM",
+          "acceptableAnswers": ["tetherlo", "tetherlo.ai", "tetherlo ai", "rehdhil", "rehdhil siyad", "crm", "ai crm", "sales automation"]
+        },
+        {
+          "id": "r1-jb",
+          "round": 1,
+          "type": "whoami",
+          "memberName": "George Sebastian",
+          "businessName": "JB Creations (Jos Brothers)",
+          "category": "Uniforms & Branded Apparel",
+          "logo": "jbcreations.png",
+          "points": 100,
+          "clues": [
+            "Look at any team that looks smart and matching — that could be my work.",
+            "I dress schools, offices, hospitals, hotels and factories.",
+            "Custom and ready-made uniforms, with embroidery and all sizes.",
+            "I make uniforms and branded clothing. Who am I?"
+          ],
+          "answer": "JB Creations / Jos Brothers (Uniforms)",
+          "acceptableAnswers": ["jb creations", "jb", "jos brothers", "george", "george sebastian", "uniforms", "uniform"]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "title": "Round 2 — Who Solves This?",
+      "subtitle": "A client has a problem. Buzz with the Marketing member who solves it.",
+      "questions": [
+        {
+          "id": "r2-netcom",
+          "round": 2,
+          "type": "problem",
+          "memberName": "Shimjith Methatta",
+          "businessName": "Netcom Services",
+          "category": "IT Hardware & Networking",
+          "logo": "netcom.png",
+          "points": 100,
+          "clues": [
+            "A growing company needs new laptops and IT equipment for every project. Buying it all is costly and slow.",
+            "They want reliable technology on rent instead.",
+            "Who do they call?"
+          ],
+          "answer": "Netcom Services (IT Hardware)",
+          "acceptableAnswers": ["netcom", "netcom services", "shimjith", "shimjith methatta", "it hardware"]
+        },
+        {
+          "id": "r2-tetherlo",
+          "round": 2,
+          "type": "problem",
+          "memberName": "Rehdhil Siyad",
+          "businessName": "Tetherlo.ai",
+          "category": "AI-Powered CRM & Automation",
+          "logo": "tetherlo.png",
+          "points": 100,
+          "clues": [
+            "A clinic owner says: 'I spend ₹50,000 a month on Instagram ads and get 100+ enquiries.'",
+            "'But before my receptionist calls them back, half of them book with someone else.'",
+            "'I am losing money on leads!' Who can solve this?"
+          ],
+          "answer": "Tetherlo.ai — AI replies, qualifies & books within seconds",
+          "acceptableAnswers": ["tetherlo", "tetherlo.ai", "tetherlo ai", "rehdhil", "rehdhil siyad", "crm", "ai crm"]
+        },
+        {
+          "id": "r2-watermark",
+          "round": 2,
+          "type": "problem",
+          "memberName": "Anup Joy",
+          "businessName": "Watermark Event Solutions",
+          "category": "Event Planning",
+          "logo": "watermark.png",
+          "points": 100,
+          "clues": [
+            "A company spent ₹20 lakhs on a product launch. Good product, nice venue, full crowd.",
+            "But six months later, nobody remembers it.",
+            "Who could have made that event memorable?"
+          ],
+          "answer": "Watermark Event Solutions",
+          "acceptableAnswers": ["watermark", "watermark event solutions", "anup", "anup joy", "event", "events"]
+        },
+        {
+          "id": "r2-firefly",
+          "round": 2,
+          "type": "problem",
+          "memberName": "Ajish Joseph",
+          "businessName": "FireFly",
+          "category": "Printing & Signage Solutions",
+          "logo": "firefly.png",
+          "points": 100,
+          "clues": [
+            "A new showroom opens tomorrow, but the shop front still looks empty and unfinished.",
+            "An event organiser suddenly needs banners, sign boards and flyers — fast.",
+            "Who can do all the printing and signage?"
+          ],
+          "answer": "FireFly (Printing & Signage)",
+          "acceptableAnswers": ["firefly", "firefly prints", "ajish", "ajish joseph", "printing", "signage"]
+        },
+        {
+          "id": "r2-hamperbells",
+          "round": 2,
+          "type": "problem",
+          "memberName": "Maria Shaji",
+          "businessName": "HamperBells",
+          "category": "Customized Gifting",
+          "logo": "hamperbells.png",
+          "points": 100,
+          "clues": [
+            "A builder is handing over keys to 100 new home owners.",
+            "He wants every customer to feel special and happy on that day.",
+            "Who can create that feeling?"
+          ],
+          "answer": "HamperBells (Gifting)",
+          "acceptableAnswers": ["hamperbells", "hamper bells", "maria", "maria shaji", "gifts", "gifting"]
+        },
+        {
+          "id": "r2-dista",
+          "round": 2,
+          "type": "problem",
+          "memberName": "Chriztopher Zine",
+          "businessName": "Dista Solutions",
+          "category": "Video Production",
+          "logo": "dista.png",
+          "points": 100,
+          "clues": [
+            "A business spends a lot on marketing but gets almost no response online.",
+            "Their competitors' videos get thousands of views. Theirs get ignored.",
+            "Who can fix this with good videos?"
+          ],
+          "answer": "Dista Solutions (Video Production)",
+          "acceptableAnswers": ["dista", "dista solutions", "chriztopher", "chriztopher zine", "video"]
+        },
+        {
+          "id": "r2-jb",
+          "round": 2,
+          "type": "problem",
+          "memberName": "George Sebastian",
+          "businessName": "JB Creations (Jos Brothers)",
+          "category": "Uniforms & Branded Apparel",
+          "logo": "jbcreations.png",
+          "points": 100,
+          "clues": [
+            "A high-end restaurant owner complains: 'My cheap uniforms are shrinking, chef coats are tearing, and stained shirts spoil our classy look.'",
+            "'I keep spending money to replace them!'",
+            "Who can fix this for good?"
+          ],
+          "answer": "JB Creations / Jos Brothers (Uniforms)",
+          "acceptableAnswers": ["jb creations", "jb", "jos brothers", "george", "george sebastian", "uniforms", "uniform"]
+        },
+        {
+          "id": "r2-mantra",
+          "round": 2,
+          "type": "problem",
+          "memberName": "Arjun K Kumar",
+          "businessName": "Mantra IT Solutions",
+          "category": "Digital Marketing & SEO",
+          "logo": "mantra.png",
+          "points": 100,
+          "clues": [
+            "A business owner says: 'My competitors get enquiries from Google every day. I get almost none.'",
+            "Who can solve this?"
+          ],
+          "answer": "Mantra IT Solutions (Digital Marketing)",
+          "acceptableAnswers": ["mantra", "mantra it solutions", "arjun", "arjun k kumar", "arjun kumar", "seo", "digital marketing"]
+        },
+        {
+          "id": "r2-noun",
+          "round": 2,
+          "type": "problem",
+          "memberName": "Gautham Manoj",
+          "businessName": "Noun Creatives",
+          "category": "Branding & Logo Design",
+          "logo": "noun.png",
+          "points": 100,
+          "clues": [
+            "A business owner says: 'Our logo looks old, our branding looks messy, and customers don't remember us.'",
+            "Who can give them a fresh, clear brand?"
+          ],
+          "answer": "Noun Creatives (Branding & Logo)",
+          "acceptableAnswers": ["noun", "noun creatives", "gautham", "gautham manoj", "branding", "logo"]
+        },
+        {
+          "id": "r2-envision",
+          "round": 2,
+          "type": "problem",
+          "memberName": "Arun Jose",
+          "businessName": "Envision Financial Services",
+          "category": "Business Financing",
+          "logo": "envision.png",
+          "points": 100,
+          "clues": [
+            "A business is doing well and growing — no losses at all.",
+            "The only problem: it is growing faster than the money it has.",
+            "Who can solve this before it becomes an emergency?"
+          ],
+          "answer": "Envision Financial Services",
+          "acceptableAnswers": ["envision", "envision financial services", "arun", "arun jose", "finance", "loan", "working capital"]
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "title": "Round 3 — Connect the Referral",
+      "subtitle": "A real referral scenario. Buzz with the Marketing member you'd introduce.",
+      "questions": [
+        {
+          "id": "r3-hamperbells",
+          "round": 3,
+          "type": "referral",
+          "memberName": "Maria Shaji",
+          "businessName": "HamperBells",
+          "category": "Customized Gifting",
+          "logo": "hamperbells.png",
+          "points": 100,
+          "clues": [
+            "A company wants to thank its top 200 clients at the end of the year.",
+            "They want a personal, memorable gift that makes clients feel valued.",
+            "Who do you refer?"
+          ],
+          "answer": "HamperBells (Gifting)",
+          "acceptableAnswers": ["hamperbells", "hamper bells", "maria", "maria shaji", "gifts", "gifting"]
+        },
+        {
+          "id": "r3-mantra",
+          "round": 3,
+          "type": "referral",
+          "memberName": "Arjun K Kumar",
+          "businessName": "Mantra IT Solutions",
+          "category": "Digital Marketing & SEO",
+          "logo": "mantra.png",
+          "points": 100,
+          "clues": [
+            "A builder is launching a new apartment project.",
+            "He needs a website, Google visibility, social media and leads.",
+            "Who do you refer?"
+          ],
+          "answer": "Mantra IT Solutions (Digital Marketing)",
+          "acceptableAnswers": ["mantra", "mantra it solutions", "arjun", "arjun k kumar", "arjun kumar", "seo", "digital marketing"]
+        },
+        {
+          "id": "r3-jb",
+          "round": 3,
+          "type": "referral",
+          "memberName": "George Sebastian",
+          "businessName": "JB Creations (Jos Brothers)",
+          "category": "Uniforms & Branded Apparel",
+          "logo": "jbcreations.png",
+          "points": 100,
+          "clues": [
+            "A school needs uniforms for the new year — blazers, ties, trousers and sports kits.",
+            "A growing retail chain wants branded shirts for its new stores.",
+            "Who do you refer?"
+          ],
+          "answer": "JB Creations / Jos Brothers (Uniforms)",
+          "acceptableAnswers": ["jb creations", "jb", "jos brothers", "george", "george sebastian", "uniforms", "uniform"]
+        },
+        {
+          "id": "r3-envision",
+          "round": 3,
+          "type": "referral",
+          "memberName": "Arun Jose",
+          "businessName": "Envision Financial Services",
+          "category": "Business Financing",
+          "logo": "envision.png",
+          "points": 100,
+          "clues": [
+            "A successful business owner with good cash flow and a commercial property plans a big expansion next year.",
+            "Should you refer him now, or only when he urgently needs money?",
+            "Who do you refer — and when?"
+          ],
+          "answer": "Envision Financial Services — today! (funding works best when planned ahead)",
+          "acceptableAnswers": ["envision", "envision financial services", "arun", "arun jose", "finance", "loan"]
+        },
+        {
+          "id": "r3-dista",
+          "round": 3,
+          "type": "referral",
+          "memberName": "Chriztopher Zine",
+          "businessName": "Dista Solutions",
+          "category": "Video Production",
+          "logo": "dista.png",
+          "points": 100,
+          "clues": [
+            "A business owner wants more attention online — good social media content and professional videos that build trust.",
+            "Who do you refer?"
+          ],
+          "answer": "Dista Solutions (Video Production)",
+          "acceptableAnswers": ["dista", "dista solutions", "chriztopher", "chriztopher zine", "video"]
+        },
+        {
+          "id": "r3-firefly",
+          "round": 3,
+          "type": "referral",
+          "memberName": "Ajish Joseph",
+          "businessName": "FireFly",
+          "category": "Printing & Signage Solutions",
+          "logo": "firefly.png",
+          "points": 100,
+          "clues": [
+            "A restaurant needs menu boards, outdoor banners and a glowing sign board.",
+            "Who do you refer?"
+          ],
+          "answer": "FireFly (Printing & Signage)",
+          "acceptableAnswers": ["firefly", "firefly prints", "ajish", "ajish joseph", "printing", "signage"]
+        },
+        {
+          "id": "r3-tetherlo",
+          "round": 3,
+          "type": "referral",
+          "memberName": "Rehdhil Siyad",
+          "businessName": "Tetherlo.ai",
+          "category": "AI-Powered CRM & Automation",
+          "logo": "tetherlo.png",
+          "points": 100,
+          "clues": [
+            "A real estate agency gets 200+ leads a month but closes only 10 — the team can't follow up fast enough.",
+            "Another business runs Google and Meta ads but loses most leads because nobody replies in time.",
+            "Who do you refer?"
+          ],
+          "answer": "Tetherlo.ai — AI-powered CRM & follow-up automation",
+          "acceptableAnswers": ["tetherlo", "tetherlo.ai", "tetherlo ai", "rehdhil", "rehdhil siyad", "crm", "ai crm"]
+        },
+        {
+          "id": "r3-noun",
+          "round": 3,
+          "type": "referral",
+          "memberName": "Gautham Manoj",
+          "businessName": "Noun Creatives",
+          "category": "Branding & Logo Design",
+          "logo": "noun.png",
+          "points": 100,
+          "clues": [
+            "A business is doing a full rebrand.",
+            "They need a new logo, brand colours, fonts and a brand style guide.",
+            "Who do you refer?"
+          ],
+          "answer": "Noun Creatives (Branding & Logo)",
+          "acceptableAnswers": ["noun", "noun creatives", "gautham", "gautham manoj", "branding", "logo"]
+        },
+        {
+          "id": "r3-watermark",
+          "round": 3,
+          "type": "referral",
+          "memberName": "Anup Joy",
+          "businessName": "Watermark Event Solutions",
+          "category": "Event Planning",
+          "logo": "watermark.png",
+          "points": 100,
+          "clues": [
+            "A company has grown from 50 to 1,000 staff in five years.",
+            "The team no longer feels connected to the company's goal.",
+            "They want one big event to bring everyone together and motivate them. Who do you refer?"
+          ],
+          "answer": "Watermark Event Solutions",
+          "acceptableAnswers": ["watermark", "watermark event solutions", "anup", "anup joy", "event", "events"]
+        },
+        {
+          "id": "r3-netcom",
+          "round": 3,
+          "type": "referral",
+          "memberName": "Shimjith Methatta",
+          "businessName": "Netcom Services",
+          "category": "IT Hardware & Networking",
+          "logo": "netcom.png",
+          "points": 100,
+          "clues": [
+            "A school is setting up WiFi and a full network for 1,000 students.",
+            "Who do you refer to build this big network?"
+          ],
+          "answer": "Netcom Services (IT Hardware & Networking)",
+          "acceptableAnswers": ["netcom", "netcom services", "shimjith", "shimjith methatta", "it hardware", "networking"]
+        }
+      ]
+    }
+  ]
+}

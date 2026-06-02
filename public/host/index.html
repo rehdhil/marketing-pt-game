@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Host Console — Marketing PT Game</title>
+  <link rel="stylesheet" href="/shared/brand.css" />
+  <link rel="stylesheet" href="/host/host.css" />
+</head>
+<body>
+  <div id="authgate" class="authgate hidden">
+    <div class="card">
+      <h2 class="display">Host key required</h2>
+      <p>Add <code>?key=YOUR_KEY</code> to the URL, or enter it:</p>
+      <input id="keyInput" type="password" placeholder="host key" />
+      <button class="btn" id="keyBtn">Enter</button>
+    </div>
+  </div>
+  <main id="console"></main>
+  <script src="/socket.io/socket.io.js"></script>
+  <script type="module" src="/host/host.js"></script>
+</body>
+</html>

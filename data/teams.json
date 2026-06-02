@@ -1,0 +1,7 @@
+[
+  { "id": "hni",          "name": "HNI PT",          "color": "#E63946", "emoji": "💎" },
+  { "id": "sme",          "name": "SME PT",          "color": "#457B9D", "emoji": "🏢" },
+  { "id": "hospitality",  "name": "Hospitality PT",  "color": "#2A9D8F", "emoji": "🍽️" },
+  { "id": "construction", "name": "Construction PT", "color": "#E9A60E", "emoji": "🏗️" },
+  { "id": "projects",     "name": "Projects PT",     "color": "#9D4EDD", "emoji": "📊" }
+]
