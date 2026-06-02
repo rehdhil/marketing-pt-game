@@ -41,12 +41,11 @@ function render() {
 
   stage.append(titleBar());
 
-  // Only reveal the answer when resolved (correct, or host gave up = 'none').
-  // A WRONG judgment keeps the answer hidden so the steal is still a real contest.
-  const judgedWrong = state.phase === 'ANSWER_JUDGED' && state.q && state.q.judged === 'wrong';
-  if (state.phase === 'ANSWER_JUDGED' && !judgedWrong) { renderReveal(); return; }
+  // ANSWER_JUDGED only happens when resolved — correct, or host revealed ('none').
+  // A wrong answer goes straight back to STEAL_OPEN, so the answer is never shown then.
+  if (state.phase === 'ANSWER_JUDGED') { renderReveal(); return; }
 
-  // question + buzz states (+ wrong-answer steal hold)
+  // question + buzz states
   const area = el('div', { class: 'q-area' });
   const q = state.question;
 
@@ -72,10 +71,6 @@ function render() {
       const flash = el('div', { class: 'buzz-flash' }, `${w?.emoji || ''} ${w ? w.name : ''} buzzed first!`);
       flash.style.background = (w?.color || '#444');
       area.append(flash);
-    } else if (judgedWrong) {
-      const allOut = state.q.eliminated.length >= state.teams.length;
-      area.append(el('div', { class: 'q-status' }, allOut ? '❌ Wrong! No teams left — host will reveal.' : '❌ Wrong! Steal is open to the other teams 👀'));
-      area.append(lampsRow());
     } else {
       area.append(el('div', { class: 'q-status' }, 'Read the clues…'));
     }

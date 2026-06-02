@@ -175,10 +175,19 @@ export function markCorrect(state, byId, teamId, pointsOverride) {
 export function markWrong(state, teamId) {
   if (!state.teams[teamId]) return err('Unknown team');
   if (!state.q.eliminated.includes(teamId)) state.q.eliminated.push(teamId);
-  state.q.judged = 'wrong';
   state.q.winnerTeam = null;
-  state.phase = PHASES.ANSWER_JUDGED;
   state.eventLog.push({ questionId: state.q.questionId, teamId, correct: false, delta: 0, ts: Date.now() });
+  const remaining = Object.keys(state.teams).filter((id) => !state.q.eliminated.includes(id));
+  if (remaining.length === 0) {
+    // every team has now missed it — reveal the answer
+    state.q.judged = 'none';
+    state.phase = PHASES.ANSWER_JUDGED;
+  } else {
+    // straight to the steal for the remaining teams — no extra host click
+    state.q.judged = null;
+    state.q.openAt = Date.now();
+    state.phase = PHASES.STEAL_OPEN;
+  }
   return ok();
 }
 
